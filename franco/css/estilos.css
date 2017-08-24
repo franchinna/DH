@@ -1,0 +1,53 @@
+body{
+background-color: #fffde7;
+background-image: url("../image/background.png");
+background-attachment: fixed;
+font-family: tahoma;
+}
+
+h1{
+  color: #546e7a;
+  text-align: center;
+  font-style: oblique;
+  background-color: rgba(201, 59, 104, 0.2);
+  margin: auto;
+}
+
+/* '*' es todos los elementos. */
+
+h2{
+  color: #283593;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size-adjust: auto;
+  font-size: 16px;
+}
+
+p{
+  text-align: justify;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+li{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#frecuentes{
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 20px;
+}
+.red-social img{
+  max-width: 5%;
+
+}
+
+div{
+  text-align: center;
+}
+
+.footer{
+  font-weight: bolder;
+}

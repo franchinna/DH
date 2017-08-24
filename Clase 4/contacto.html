@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta charset="utf-8">
+    <title>Formulario de Consultas</title>
+  </head>
+  <body>
+
+<h1><i>Formulario de deporte</h1></i>
+
+<form action="contacto.php" method="post" name="formulario">
+
+<p>
+  <label for="nomapellido">Nombre y Apellido: </label>
+  <input required="true" type="text" name="nomapellido">
+</p>
+
+<p>
+  <label for="correo">Correo electronico: </label>
+  <input required="true" type="email" name="correo" value="">
+</p>
+
+<p>
+  <label for="asunto">Asunto del mensaje: </label>
+  <select class="" name="asunto">
+    <option value="FormularioSueldo">Deporte que odio</option>
+    <option value="FormularioDespido">Deporte que gustan</option>
+</select>
+</p>
+
+<u><p>Genero</p></u>
+<label for="genero">M</label>
+  <input type="radio" name="genero" value="Masculino">
+  <label for="genero">F</label>
+  <input type="radio" name="genero" value="Femenino">
+
+
+
+<p><u>Pasatiempos</u></p>
+<p></p><label for="futbol">Fútbol</label><input type="checkbox" name="futbol" value="futbol">
+<br><label for="tenis">Tenis</label><input type="checkbox" name="tenis" value="tenis">
+<br><label for="paddle">Paddle</label><input type="checkbox" name="paddle" value="paddle">
+<br><label for="handball">Handball</label><input type="checkbox" name="handball" value="handball">
+<br><label for="motos">Motos</label><input type="checkbox" name="motos" value="motos">
+</p>
+
+<u><p>Comentarios</u>
+<br><br><textarea name="comentarios" rows="10" cols="40"></textarea>
+</p>
+
+<input class="button" type="submit" value="Enviar"></input>
+<button class="button" type="reset">Borrar</button>
+
+</form>
+
+  </body>
+</html>
+
+
+
+<!--
+Let's back to CSS​. Tomando como base la hoja de estilo creada en las clases anteriores, vamos a:
+a. Crear una regla que nos permita cambiar el estilo visual (puede ser el fondo) de los campos
+del formulario solo cuando estemos haciendo foco sobre los mismos.
+b. Crear una regla que nos permita redimensionar el campo comentarios​, solamente de
+manera vertical.
+c. Crear una regla que nos permita cambiar el estilo visual (color, trazado y/o decoración) de
+los enlaces solamente cuando hagamos "rollover" sobre los mismos.
+d. Crear una regla que nos permita cambiar la visual de las imágenes del archivo
+hobbies.html ​solo para cuando hagamos rollover​ sobre ellas. Podemos usar la siguiente
+declaración como prueba: border-radius: 20px
+-->

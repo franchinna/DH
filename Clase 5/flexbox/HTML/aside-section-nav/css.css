@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box!important;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+header, aside, section, nav, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  border: 5px solid black;
+}
+header {
+  color: blue;
+  background: violet;
+  height: 15%;
+}
+#center-page {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+aside {
+  flex: 2;
+  color: red;
+  background: lime;
+}
+section {
+  flex: 6;
+  color: pink;
+  background: tan;
+}
+nav {
+  flex: 2;
+  color: cyan;
+  background: orange;
+}
+footer {
+  color: green;
+  height: 15%;
+  background: yellow;
+}
+#center-page {
+  height: 70%;
+  font-size: 150%;
+}

@@ -1,0 +1,61 @@
+body{
+  background-image: url("../image/background.png");
+  font: Tahoma;
+}
+
+#menu{
+  /*background-color: orange;*/
+  text-align: center;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li{
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #6F9DC2;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.presentacion h1{
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 50px;
+  margin: 10px 10px 20px 10px;
+}
+
+.presentacion{
+  margin-left: 80px;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.presentacion img{
+  float: left;
+  max-width: 70%;
+  margin: 10px 15px 5px 0px;
+}
+
+.presentacion p{
+  text-align: left;
+  font-style: italic;
+
+}
+
+footer{
+  text-align: center;
+}
+
+.redsocial img{
+  max-width: 2.5%;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+body{
+  background: #FDFAE8;
+  font-family: verdana;
+}
+
+input:hover , select{
+  background-color: #cce6ff;
+  transition: all 300ms linear;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  background-color: #cce6ff;
+}
+
+textarea{
+  resize: vertical;
+}
+
+.button:hover{
+  text-decoration: underline;
+  background-color: white;
+}
+
+.button{
+  background-color: red;
+}

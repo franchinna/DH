@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box!important;
+}
+
+body{
+  background-image: url("../images/bg-body.png");
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+/*cabecera*/
+
+header.main-header{
+  text-align: center;
+  margin-top: 20px;
+}
+
+div .main-nav{
+  max-width: 1180px;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 180px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.main-nav li{
+  float: left;
+  display: inline-block;
+  margin: 0 auto;
+  width: 180px;
+  padding: 20px;
+  text-align: center;
+  height: 50px;
+  list-style-type: none;
+  text-transform: uppercase;
+  background-color: #333333;
+  font-weight: bolder;
+  color: white;
+  margin-right: 20px;
+}
+
+.main-nav li:last-child{
+  margin-right: 0px;
+  float: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/*banner*/
+
+section.banner{
+  margin: 0 auto;
+  max-width: 1180px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 1180px;
+  text-align: center;
+}
+.banner img{
+  width: 100%;
+}
+
+/*productos*/
+
+.vip-products{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1180px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product{
+  width: 380px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.product img{
+  width: 100%;
+}
+.product a{
+  background-color: #333333;
+  margin-top: 5px;
+  font-size: 12px;
+  padding: 5px 20px 5px 20px;
+}
+.product p{
+  margin-bottom: 12px;
+}
+
+.product h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+
+/*footer*/
+
+footer.main-footer{
+  width: 1180px;
+  margin: 0 auto;
+  height: 100px;
+  text-align: center;
+  background-color: #b40003;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.main-footer li{
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 0px 10px 0px 10px;
+  font-size: 13px;
+  color: white;
+  border-right: 1px solid;
+  border-color: white;
+}
+.main-footer ul{
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.main-footer li:last-child{
+  margin-right: 0px;
+  border-right: 0;
+  float: none;
+}
